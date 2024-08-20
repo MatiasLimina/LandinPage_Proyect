@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+div{
+    padding-left: 80px;
+}
 header, footer{
     background-color: #1f2937;
 }
@@ -41,17 +44,19 @@ h2{
 header{
     display: flex;
     flex-direction: column;
+    padding-right: 40px;
 }
 .header-top{
     display: flex;
     justify-content: flex-start;
 }
 .links{
+    display: flex;
     margin-left: auto;
-    gap: 10px;
-    font-size: 20px;
-    font-weight: lighter;
-    color: #f9faf8;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #f9faf8de;
 }
 .header-img{
     height: 70px;
@@ -59,4 +64,5 @@ header{
 }
 .header-main{
     display: flex;
+
 }
