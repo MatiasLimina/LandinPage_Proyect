@@ -49,6 +49,7 @@ header{
 .header-top{
     display: flex;
     justify-content: flex-start;
+    padding-top: 30px;
 }
 .links{
     display: flex;
@@ -59,10 +60,21 @@ header{
     color: #f9faf8de;
 }
 .header-img{
-    height: 70px;
-    width: auto;
+    height: 270px;
+    width: 490px;
+    margin-left: auto;
 }
 .header-main{
     display: flex;
-
+    padding-top: 22vh;
+    padding-bottom: 22vh;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.header-main-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width:400px ;
+    flex-basis: auto;
 }
