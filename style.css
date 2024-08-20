@@ -23,3 +23,18 @@ button{
 .call-to-action{
     background-color: #3882F6;
 }
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.quote{
+    background-color: #E5E7EB;
+
+}
+.text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic,sans-serif;
+    color: #1F2937;
+}
