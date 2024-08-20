@@ -38,3 +38,25 @@ h2{
     font-family: italic,sans-serif;
     color: #1F2937;
 }
+header{
+    display: flex;
+    flex-direction: column;
+}
+.header-top{
+    display: flex;
+    justify-content: flex-start;
+}
+.links{
+    margin-left: auto;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #f9faf8;
+}
+.header-img{
+    height: 70px;
+    width: auto;
+}
+.header-main{
+    display: flex;
+}
