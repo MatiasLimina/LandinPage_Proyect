@@ -4,6 +4,8 @@
 div{
     padding-left: 80px;
 }
+/* Header Section */
+
 header, footer{
     background-color: #1f2937;
 }
@@ -90,4 +92,13 @@ header{
     max-width:400px ;
     flex-basis: auto;
     gap: 10px;
+}
+/* End Header Section */
+/* Main Section */
+main{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
 }
