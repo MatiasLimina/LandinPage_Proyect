@@ -40,21 +40,7 @@ button{
 .call-to-action{
     background-color: #3882F6;
 }
-h2{
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
-}
-.quote{
-    background-color: #E5E7EB;
 
-}
-.text{
-    font-size: 36px;
-    font-weight: lighter;
-    font-family: italic,sans-serif;
-    color: #1F2937;
-}
 header{
     display: flex;
     flex-direction: column;
@@ -95,6 +81,11 @@ header{
 }
 /* End Header Section */
 /* Main Section */
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -115,7 +106,7 @@ main{
 .info-img{
     display: flex;
     justify-content: center;
-   
+    
 }
 .img-subtext{
     display: flex;
@@ -138,4 +129,29 @@ main{
 #two{
     height: 140px;
     width: 120px;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    flex-basis: auto;
+    align-items: flex-start;
+    padding: 0;
+}
+.foot{
+    align-self: flex-end;
+    font-size: 26px;
+}
+.text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic,sans-serif;
+    color: #1F2937;
 }
