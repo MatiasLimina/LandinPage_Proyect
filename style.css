@@ -101,8 +101,41 @@ main{
 }
 .info{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 30px;
 }
 .info img{
     width: auto;
-    height: 120px;
+    height: 140px;
+    border: solid #3882F6;
+} 
+.info-img{
+    display: flex;
+    justify-content: center;
+   
+}
+.img-subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 200px;
+    padding: 0px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    gap: 10px;
+}
+.img-subtext div{
+    padding: 0;
+    text-align: center;
+    color: #353635c4;
+    font-weight: 500;
+}
+#two{
+    height: 140px;
+    width: 120px;
 }
