@@ -37,9 +37,6 @@ button{
     font-weight: 700;
     border: none;
 }
-.call-to-action{
-    background-color: #3882F6;
-}
 
 header{
     display: flex;
@@ -154,4 +151,35 @@ main{
     font-weight: lighter;
     font-family: italic,sans-serif;
     color: #1F2937;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    display: flex;
+    padding: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 10px;
+    gap: 270px;
+    
+    
+}
+.action-container{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.call-to-action div{
+    color: #E5E7EB;
+    padding-left: 0;
+}
+#call{
+    font-size: 27px;
+    font-weight: 700;
+}
+.call-to-action button{
+    border:solid #f9faf8;
+    align-self: center;
 }
