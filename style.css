@@ -19,9 +19,21 @@ h4{
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
 }
 button{
     background-color:#3882F6 ;
+    display: flex;
+    flex-basis: content;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
 }
 .call-to-action{
     background-color: #3882F6;
@@ -77,4 +89,5 @@ header{
     flex-wrap: wrap;
     max-width:400px ;
     flex-basis: auto;
+    gap: 10px;
 }
