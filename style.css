@@ -102,3 +102,7 @@ main{
 .info{
     display: flex;
 }
+.info img{
+    width: auto;
+    height: 120px;
+}
